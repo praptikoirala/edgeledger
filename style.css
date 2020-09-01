@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+ 
+/* utility classes */
+.green-text{
+    color:#93CB52;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    position:sticky;
+    top:0;
+    background:#333333 ;
+    color:white; 
+    justify-content:space-between;
+    z-index:1;
+    padding:1rem;
+}
+
+.navbar ul{
+    display:flex;
+    list-style: none;
+    padding:0.55rem;
+}
+
+.navbar ul li a{
+    color:white;
+    text-align: center;
+    padding:0.7rem;
+    margin:0 0.5rem;
+}
+
+.navbar ul li a:hover{
+    background:#93CB52;
+    border-radius:0.2rem;
+}
