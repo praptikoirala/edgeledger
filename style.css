@@ -17,6 +17,32 @@ a{
     color:#93CB52;
 }
 
+.l-heading{
+    font-size:4.1rem;
+    margin-bottom:1.6rem;
+}
+
+.para{
+    line-height:1.8rem;
+    font-size:1.3rem;
+    margin-bottom:1.6rem;
+}
+
+.btn{
+    display:inline-block;
+    border:none;
+    background-color: #93CB52;
+    color:#FFFFFF;
+    padding:0.6rem 1.8rem;
+    border-radius:0.25rem;
+
+}
+
+.btn:hover{
+    background:#4CBB17;
+
+}
+
 /* Navbar */
 .navbar{
     display:flex;
@@ -32,17 +58,42 @@ a{
 .navbar ul{
     display:flex;
     list-style: none;
-    padding:0.55rem;
+    padding:0.4rem;
 }
 
 .navbar ul li a{
     color:white;
     text-align: center;
     padding:0.7rem;
-    margin:0 0.5rem;
+    margin:0 0.25rem;
 }
 
 .navbar ul li a:hover{
     background:#93CB52;
     border-radius:0.2rem;
+}
+
+/* Showcase */
+#showcase{
+    background:#333333 url('./pictures/showcase.jpg') no-repeat center center/cover;
+    color:#FFFFFF;
+    height:100vh;
+}
+
+#showcase .showcase-content{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    padding:0 1.5rem;
+    
+    /* overlay */
+    position:absolute;
+    top:63px;
+    left:0px;
+    right:0px;
+    background-color: rgba(0,0,0,0.3);
+
 }
