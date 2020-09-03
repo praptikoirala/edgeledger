@@ -93,11 +93,12 @@ a{
 }
 
 .list{
+    
     list-style:none;
 }
 
 .list li{
-    padding:0.6rem;
+    padding:0.6rem 0;
     border-bottom:1px dotted #444444;
 }
 /* Navbar */
