@@ -49,7 +49,12 @@ a{
 }
 
 .bg-dark{
-    background: #333333;;
+    background: #333333;
+    color: #f4f4f4;
+}
+
+.bg-green{
+    background: #93CB52;
     color: #f4f4f4;
 }
 
@@ -75,6 +80,11 @@ a{
     padding:0.6rem 1.8rem;
     border-radius:0.25rem;
     margin-top:0.5rem;
+}
+
+.btn-dark{
+    background: #333333;;
+    color: #f4f4f4;
 }
 
 .btn:hover{
@@ -187,4 +197,28 @@ a{
     display:block;
     margin:auto;
     width:60%;
+}
+
+/* Contact */
+#contact{
+    display:flex;
+}
+
+#contact .contact-form , 
+#contact .contact-map{
+    flex:1;
+}
+
+#contact .form-item{
+    margin-bottom:0.8rem;
+}
+
+#contact label{
+    display:block;
+}
+
+#contact input, 
+#contact textarea{
+    width:100%;
+    padding:0.5rem;
 }
